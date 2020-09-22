@@ -14,7 +14,6 @@ export const Inner = styled.div`
   padding: 70px 45px;
   flex-direction: column;
   max-width: 815px;
-  width: 85%;
   margin: auto;
 `;
 
@@ -33,7 +32,10 @@ export const Title = styled.h1`
 
 export const Item = styled.div`
   color: white;
+  margin: auto;
   margin-bottom: 10px;
+  max-width: 670px;
+  width: 100%;
 
   &::first-of-type {
     margin-top: 3em;
